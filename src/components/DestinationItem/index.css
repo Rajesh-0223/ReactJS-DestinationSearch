@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.destination-item {
+  width: 235px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+.destination-img {
+  height: 175px;
+  width: 235px;
+}
+.name {
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 18px;
+  }
+}
